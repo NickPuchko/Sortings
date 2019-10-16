@@ -20,6 +20,7 @@ bool Employee::operator > (const Employee &E){
     }
 }
 
+//Аналогично с оператором >
 bool Employee::operator < (const Employee &E){
     if (department < E.department){
         return true;
